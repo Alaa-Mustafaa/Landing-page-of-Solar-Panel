@@ -8,6 +8,7 @@
     --text-color:#5d6979;    
     --background-color-card:#F5FBF9;
     --footer-background-color:#283646;
+    --list-color:#9CCA60;
 }
 
 *{
@@ -71,12 +72,7 @@ nav ul li {
 
 
 
-/* Content of first section */
-
-
-/* Solar Panel Installers In Plymouth */
-
-
+/* Content of first section  (Solar Panel Installers In Plymouth)  */
 
   #Content_of_first_section{
     justify-content: center;
@@ -118,6 +114,59 @@ nav ul li {
 
 /* End of First Section */
 
+/* Second section */
+
+#Friendliest_Installers .container{
+  gap: 3%;
+}
+#Friendliest_Installers h2{
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+#Friendliest_Installers p{
+  color: var(--text-color);
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 4%;
+}
+#Friendliest_Installers ol {
+  list-style-type:none;
+  counter-reset: item;
+}
+
+#Friendliest_Installers ol li{
+  counter-increment: item;
+  padding: 2% 0px;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+#Friendliest_Installers ol li::before{
+  content: counter(item, decimal-leading-zero) "/ "; 
+    color: var(--list-color);
+    font-size: 20px;
+
+}
+#Friendliest_Installers_right_side{
+  position: relative;
+}
+
+#yellow-card{
+
+  position: absolute;
+  background-color: var(--yellow-color);
+  bottom: 4%;
+  left: -15%;
+  padding: 5%;
+  border-radius: 15px;
+  text-align: center;
+}
+#yellow-card p{color: black;}
+.fa-solar-panel{
+  font-size: 25px;margin-bottom: 5%;
+}
+/* End of second section */
 
 
 /* Power that doesn't cost the earth (Third Section) */
@@ -264,6 +313,17 @@ nav ul li {
     font-size: 45px;
   }
   
+
+  #Energy_Innovators_sixth_section .fa-bolt{
+    color: var(--white-color);
+    background-color: var(--main-color);
+    border: 10px solid var(--background-color-card);
+    padding: 3%;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    
+  }
   
   /* End of Energy Innovators - the products we love section (sixth section)*/
 
@@ -446,7 +506,6 @@ nav ul li {
 
   @media screen and (max-width: 800px) {
     nav {
-      background-color: lightgreen;
       position: relative;
       transition: all 1s;
     }
@@ -458,8 +517,9 @@ nav ul li {
         align-items: center;
         flex-direction: column;
         gap: 30px;
-        background-color: lightgreen;
+        background-color: var(--main-color);
         display: none;
+        padding-bottom: 3%;
         transition: all 1s;
     }
 
@@ -541,5 +601,38 @@ footer .item-columns-6{
     
     padding: 4% 0.5%;
   
+  }
+
+  #yellow-card{
+
+    bottom: 0%;
+    left: 0%;
+  
+  }
+  #third-section-content h3 {
+    font-size: 30px;
+  }
+  
+  #third-section-content p {
+    font-size: 15px;
+  }
+
+  #Content_of_first_section h1{
+    font-size: 40px;
+    font-weight: normal;
+    
+  }
+
+  #Content_of_first_section p{
+    font-size: 20px;
+    margin-bottom: 5%;
+    
+  }
+
+  #Content_of_first_section{
+
+    padding-left: 5%;
+
+
   }
 }
