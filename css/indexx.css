@@ -538,7 +538,7 @@ nav ul li {
 
   @media screen and (max-width: 600px) {
 
-    #fourth_section{
+    #fourth_section,#Friendliest_Installers{
         margin-bottom:18%;
     }
 
@@ -644,6 +644,12 @@ footer .item-columns-6{
 #list1 li,#list2 li{
 
   font-size: 15px;
+  
+}
+
+#list1 li{
+  text-align: center;
+  padding-right: 2%;
 }
 
 }
