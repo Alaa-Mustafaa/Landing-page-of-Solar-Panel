@@ -486,22 +486,6 @@ nav ul li {
   }
   /* End of Footer */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* Media Query */
 
   @media screen and (max-width: 800px) {
@@ -597,6 +581,8 @@ footer .item-columns-6{
     margin-bottom: 8%;
 }
 
+
+
 #list1 li{
     
     padding: 4% 0.5%;
@@ -635,4 +621,29 @@ footer .item-columns-6{
 
 
   }
+  #list1 li,#list2 li{
+
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+
+#form input{
+
+  width: 90%;
+
+}
+
+#form .yellow_color_button{
+
+  right: 10.2%;
+}
+
+#list1 li,#list2 li{
+
+  font-size: 15px;
+}
+
 }
