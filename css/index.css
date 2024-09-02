@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+
+nav {
+  background-color: #0b9586;
+  padding: 15px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* End of Navigation bar */
+
+/* First Section */
+#First_section {
+  background-image: url("../images/solar-panels-meadow 1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* End of First Section */
+
+/* Friendliest Installers Section (Second Section) */
+
+#Friendliest_Installers_Section {
+  margin: 10% 0%;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Left Side */
+
+#Friendliest_Installers_Section_left_Side {
+  flex: 5;
+  display: flex;
+  margin-left: 10%;
+  flex-direction: column;
+}
+
+#Friendliest_Installers_Section h2 {
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+#Friendliest_Installers_Section p {
+  color: rgb(83, 83, 83);
+  line-height: 25px;
+  text-align: justify;
+}
+/* End of Left Side */
+
+/* Right Side */
+#Friendliest_Installers_Section_right_Side {
+  display: flex;
+  flex: 6;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End of Right Side */
+
+/* End of Friendliest Installers Section (Second Section) */
+
+/* Power that doesn't cost the earth (Third Section) */
+
+#third-section {
+  background-image: url("../images/8116\ 1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10%;
+  color: white;
+}
+
+#third-section-content {
+  padding: 10%;
+}
+
+#third-section-content h3 {
+  font-size: 40px;
+}
+
+#third-section-content p {
+  font-size: 20px;
+  padding: 3% 0%;
+}
+
+.yellow-button {
+  background-color: #ffbb1c;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 50px;
+}
+
+/* End of Power that doesn't cost the earth (Third Section) */
+
+/*  Solar Section (fourth section)*/
+#fourth-section {
+  margin-bottom: 10%;
+}
+
+#fourth-section h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#fourth-section p {
+  padding-top: 1%;
+  color: #5d6979;
+}
+
+.flex {
+  display: flex;
+  gap: 2%;
+  margin: 3% 10%;
+}
+
+.flex-card {
+  flex-direction: row;
+  flex: 1;
+  padding-bottom: 3%;
+  box-shadow: 0 4px 8px 0 rgb(214, 214, 214);
+}
+
+.flex-body {
+  padding-left: 3%;
+}
+
+.flex-body h4 {
+  font-size: 20px;
+  padding-top: 5%;
+}
+
+.card-link {
+  color: #0b9586;
+}
+
+.fa-arrow-right,
+.card-link {
+  padding-left: 2%;
+}
+
+/* End of Solar Section (fourth section)*/
+
+/* Repairs Over Replacement Section (fifth section) */
+
+#Repairs-Over-Replacement-Section-fifth-section {
+  background-image: url("../images/8116 1 (1).png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 0%;
+  margin-bottom: 10%;
+  color: white;
+  text-align: center;
+}
+
+#Repairs-Over-Replacement-Section-fifth-section .content {
+  background-color: rgb(75, 75, 75);
+  margin: 0% 20%;
+  padding: 3%;
+}
+
+.content h4 {
+  font-size: 30px;
+  padding-bottom: 3%;
+}
+
+.content p {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+/* End of Repairs Over Replacement Section (fifth section) */
+
+
+/* Energy Innovators - the products we love section (sixth section)*/
+
+.Energy_Innovators_card div{
+
+  background-color: #F5F8EF; padding:6%;border:2px solid #74C3AD;border-radius: 15px ;
+
+}
+
+.Energy_Innovators_card img{
+
+  border-radius: 10px
+}
+
+.Energy_Innovators_card .text1{
+  font-weight: bold; font-size:20px;padding:6% 0%
+}
+
+.Energy_Innovators_card .text2{
+  margin-bottom: 3%;  line-height: 25px;color:#616a75;margin-bottom:5%
+}
+
+
+
+/* End of Energy Innovators - the products we love section (sixth section)*/
+
+
+
+
+
+/* our values Section (seventh section) */
+#seventh-section h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #seventh-section p {
+    padding-top: 1%;
+    color: #5d6979;
+  }
+/* End of our values Section (seventh section) */
+
+
+
+  /* Footer */
+
+  footer{
+    background-color: #283646;
+    margin-top: 10%;
+    padding: 5% 10%;
+    
+
+  }
+
+  #list1 li{
+
+    padding: 4% 1%;
+    color: #EFF1F2;
+    font-size: 20px;
+
+  }
+
+
+  #list2 li{
+
+    padding: 4% 1%;
+    color: #616A75;
+    font-size: 20px;
+    
+
+  }
+
+
+  #list2 li::after{
+    content: "|";
+
+  }
+  /* End of Footer */
+
+
+
+  .container{
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 5%;
+
+  }
+
+
+  .item-columns-3{
+
+    grid-column: span 3;
+
+  }
+
+  .item-columns-4{
+
+    grid-column: span 4;
+
+  }
+
+  .item-columns-5{
+
+    grid-column: span 5;
+
+  }
+
+  .item-columns-6{
+
+    grid-column: span 6;
+
+  }
+
+  .item-columns-7{
+
+    grid-column: span 7;
+
+  }
+
+  .item-columns-8{
+
+    grid-column: span 8;
+
+  }
+
+  .item-columns-12{
+
+    grid-column: span 12;
+
+  }
+
+
+
+
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    .item-columns-4{
+
+      grid-column: span 12;
+  
+    }
+
+    .item-columns-6{
+  
+      grid-column: span 12;
+  
+    }
+  
+    .item-columns-7{
+  
+      grid-column: span 12;
+  
+    }
+  
+    
+  }
